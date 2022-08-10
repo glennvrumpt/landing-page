@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header .maintext {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.header p,
+ul a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 0 16px;
+}
+
+img {
+  width: 620px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 9rem;
+  gap: 4rem;
+}
+
+.content div {
+  width: 40%;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.7em 2em;
+  border-radius: 10px;
+  border: none;
+  margin: 1% 0;
+}
+
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  padding: 4rem 0;
+}
+
+.content2 img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 1rem;
+  margin: 0 0 2% 0;
+}
+
+.content2 div {
+  width: 15rem;
+  color: #1f2937;
+  font-size: 1.125rem;
+}
+
+.quote {
+  margin: 0 4rem;
+  padding: 22rem 0rem 15rem 0;
+  font-size: 2.1rem;
+  width: 52%;
+}
+
+.quote p:first-child {
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote p:last-child {
+  font-weight: 900;
+  font-size: 1.8rem;
+  float: right;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  width: 62%;
+  padding: 2.3rem 0;
+  font-size: 1.125rem;
+  margin-bottom: 8rem;
+}
+
+.signup button {
+  border: white solid 1px;
+  padding: 0 2rem;
+}
+
+footer {
+  background-color: #1f2937;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  color: #e5e7eb;
+  padding: 2rem 0;
+}
